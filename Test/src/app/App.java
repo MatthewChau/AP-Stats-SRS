@@ -41,7 +41,7 @@ public class App {
                 if (_codes[i] == _codes[p - 1]) {
                     i--;
                     reset = true;
-                    System.out.println("Repeat");
+                    //System.out.println("Repeat");
                 }
             }
 
