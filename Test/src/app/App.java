@@ -52,15 +52,15 @@ public class App {
             }
         }
 
-        for (int l=0; l < SAMPLE_SIZE; l++) {
-            System.out.print(_codes[l] + " ");
-        }
+        //for (int l=0; l < SAMPLE_SIZE; l++) {
+        //    System.out.print(_codes[l] + " ");
+        //}
 
-        System.out.println(" ");
+        //System.out.println(" ");
 
-        for (int q=0; q < SAMPLE_SIZE; q++) {
-            System.out.print(_values[q] + " ");
-        }
+        //for (int q=0; q < SAMPLE_SIZE; q++) {
+        //    System.out.print(_values[q] + " ");
+        //}
 
         int sum = IntStream.of(_values).sum();
         double mean = sum / _values.length;
